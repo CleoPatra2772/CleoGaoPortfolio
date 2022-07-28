@@ -1,0 +1,70 @@
+h3, h4{
+    color: white; 
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.about-container{
+    padding: 60px 20px 0px 0px;
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+   
+
+}
+
+.about-me{
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+    color: white;
+}
+
+
+
+.photo-me{
+    padding: 20px 20px;
+    width: 500px;
+    /* border-radius: 50%; */
+}
+
+
+.photo-workout{
+    
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+}
+
+.photo-classical{
+    width: 300px;
+    float: right;
+    margin-left: 30px;
+}
+
+.working-out, .classical-music, .skill-container{
+padding-top: 150px;
+}
+
+.skills{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skill-container{
+    padding: 150px 0;
+}
+
+
+
+
