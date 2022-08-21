@@ -3,7 +3,7 @@ import {Container, Row, Col} from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import  GrayGalaxy  from "../../assets/img/GrayGalaxy.png";
 import './banner.styles.css';
-import resume from '../../assets/resume/CleoG.Resume1.docx';
+import resumeOne from '../../assets/resume/CleoG.Resume1.docx';
 
 export const Banner =() =>{
     const [loopNum, setLoopNum] = useState(0);
@@ -60,7 +60,7 @@ export const Banner =() =>{
             
             </p>
             <button className="vvd" type="button" class="btn btn-secondary" onClick={() => console.log('connect')}>
-                       <a download href={resume}>Download My Resume </a> 
+                       <a download href={resumeOne}>Download My Resume </a> 
                         <ArrowRightCircle size={25}/>
                     </button>
             </Col>
